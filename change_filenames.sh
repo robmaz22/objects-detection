@@ -3,7 +3,7 @@
 counter=0
 path=$1
 
-echo "Rozpoczęcie zmiany nazw"
+echo "Changing file_names..."
 
 for filename in $path/*.jpg; 
 do
@@ -13,4 +13,4 @@ do
    counter=$((counter+1))
 done
 
-echo "Zmieniono nazwy dla $counter plikow"
+echo "$counter file_names changed"
